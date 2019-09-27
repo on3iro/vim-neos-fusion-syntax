@@ -2,7 +2,7 @@ if exists("b:current_syntax")
     finish
 endif
 
-syn match fusionKeyword "@\(process\|if\|context\|apply\)"
+syn match fusionKeyword "@\(process\|if\|context\|apply\|cache\)"
 syn keyword fusionKeyword include namespace $
 syn keyword fusionFunction prototype afx
 syn match fusionParens "[()]"
