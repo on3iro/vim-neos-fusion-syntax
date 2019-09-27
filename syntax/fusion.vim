@@ -11,6 +11,7 @@ syn match fusionOpSymbols "=\{1,3}\|!==\|!=\|<\|>\|>=\|<=\|++\|+=\|--\|-="
 syn match fusionSeparator "\."
 syn match fusionSeparator "\:"
 syn region fusionString start=/\v"/ skip=/\v\\./ end=/\v"/
+syn region fusionString start=/\v'/ skip=/\v\\./ end=/\v'/
 syn match fusionNumber "-\=\<\d[0-9_]*L\=\>"
 syn match fusionNumber "-\=\<0[xX][0-9a-fA-F][0-9a-fA-F_]*\>"
 syn match fusionNumber "-\=\<0[bB][01][01_]*\>"
