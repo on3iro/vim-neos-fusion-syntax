@@ -1,3 +1,6 @@
+# [DEPRECATED] - use the [treesitter-syntax](https://gitlab.com/jirgn/tree-sitter-fusion/) instead!
+
+
 ## Neos-Fusion-Syntax
 
 Work in progress
